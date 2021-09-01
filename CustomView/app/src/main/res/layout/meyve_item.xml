@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:background="@color/meyveBgColor"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/meyve_item"
+        android:scaleType="fitXY"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meyvelerView"
+            android:text="Meyve İsmi"
+            android:textSize="19sp"
+            android:textColor="@color/meyveTextColor"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meyvekaloriView"
+            android:text="Kalori"
+            android:textSize="16sp"
+            android:textColor="@color/meyveTextColor"
+            android:layout_marginTop="5dp"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
